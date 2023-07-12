@@ -1,0 +1,79 @@
+/* файл для медиазапросов */
+
+/* для ширины экрана не более 1350п */
+@media(max-width: 1350px) {
+    body {
+        background-size: 70%;
+    }
+}
+
+/* для ширины экрана не более 1050п */
+@media(max-width: 1050px) {
+    body {
+        background-size: 60%;
+    }
+}
+
+/* для ширины экрана не более 950п */
+@media(max-width: 950px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+    }
+
+    main {
+        padding: 2rem 9rem;
+    }
+
+    
+}
+
+
+@media(max-width: 880px) {
+    .gallery {
+        padding: 1rem 4rem;
+        grid-template-columns: 22.3rem 22.3rem 22.3rem;
+        grid-template-rows: 22.2rem 22.2rem 22.2rem;
+        justify-content: center;    
+
+    }
+}
+
+/* для ширины экрана не более 800п */
+@media(max-width: 800px) {
+    .gallery{
+        gap: 1rem;
+    }
+    .gallery .gallery-img img {
+       width: 90%;
+    }
+}
+
+/* для ширины экрана не более 720п */
+
+@media(max-width: 720px) {
+    header nav{
+        /* flex-wrap: wrap; */
+        align-items: center;
+
+    }
+    .gallery .gallery-img img {
+        width: 80%;
+    }
+}
+
+/* для ширины экрана не более 700п */
+@media(max-width: 700px) {
+    
+    header nav {
+        padding: 1rem 3.6rem;
+        gap: 2rem;
+    }
+
+    main {
+        padding: 1rem 7rem;
+    }
+
+
+}
