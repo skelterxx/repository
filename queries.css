@@ -50,17 +50,24 @@
     }
 }
 
+/* для ширины экрана не более 760п */
+@media(max-width: 760px) {
+    .gallery {
+        padding: 1rem 4rem;
+        grid-template-columns: 20rem 20rem;
+        justify-content: right; 
+        gap: 0rem 
+    }
+}
+
 /* для ширины экрана не более 720п */
 
 @media(max-width: 720px) {
     header nav{
         /* flex-wrap: wrap; */
         align-items: center;
+    }
 
-    }
-    .gallery .gallery-img img {
-        width: 80%;
-    }
 }
 
 /* для ширины экрана не более 700п */
@@ -74,6 +81,23 @@
     main {
         padding: 1rem 7rem;
     }
+}
 
+/* для ширины экрана не более 610п */
+@media(max-width: 610px) {
+    header nav{
+        gap: 0;
+    }
+    main {
+        padding: 1rem 3rem
+    }
+    .certificates {
+        padding: 3rem 5rem
+    }
+
+}
+
+/* для ширины экрана не более 570п */
+@media(max-width: 570px) {
 
 }
